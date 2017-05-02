@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "system",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": "./ts",
+    "rootDir": "./ts",
+    "paths": {
+      "@NoyauFonctionnel/*": ["./nf/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "!node_modules/@types"
+  ]
+}
